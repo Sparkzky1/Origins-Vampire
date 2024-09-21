@@ -7,7 +7,7 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command": "walkers switchShape @s minecraft:bat"
+				"command": "identity equip @s minecraft:bat"
 			},
 			{
 				"type": "origins:execute_command",
@@ -28,7 +28,7 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command": "walkers switchShape @s normal"
+				"command": "identity unequip @s normal"
 			},
 			{
 				"type": "origins:heal",
